@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather location info app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather location info app</h1>`
+        <div class="weather-info">
+        
+        </div>
+        <div id="map"></div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/8109af2ed7.js" crossorigin="anonymous"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDso5aBNB9EjM5QCfxIPi7evUHAqIW8ckc&callback=getLocation">
+        </script>
+    
+        <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+    
+        <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    
+        <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+    
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
